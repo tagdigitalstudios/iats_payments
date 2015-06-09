@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.version       = IatsPayments::VERSION
   spec.authors       = ["Tim Glen"]
   spec.email         = ["tim@tag.ca"]
-  spec.summary       = %q{Basic Payments using the IATS sytem}
+  spec.summary       = %q{A simple wrapper around the IATS Payments SOAP service}
   spec.description   = nil
   spec.homepage      = ""
   spec.license       = "MIT"
