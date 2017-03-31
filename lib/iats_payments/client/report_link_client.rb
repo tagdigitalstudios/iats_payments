@@ -1,3 +1,9 @@
+# ReportLink
+#
+# ReportLink allows you to extract all transactions from the iATS database and
+# import into yours for reporting etc. Reports include Credit Card and ACH/EFT
+# (direct debit) for approved, failed or refunded transactions.
+
 # To see the available required/available request parameters for each method, see:
 # http://home.iatspayments.com/developer-info/underlying-soap-api
 #

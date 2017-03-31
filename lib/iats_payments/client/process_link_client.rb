@@ -1,3 +1,12 @@
+# ProcessLink
+#
+# ProcessLink are our services for processing either credit card or ACH/EFT
+# (direct debit) transactions. You can either transact using clear text or
+# using the token created using CustomerLink.
+#
+# Refunds and large batch transactions can also be managed through the
+# ProcessLink API.
+
 # To see the available required/available request parameters for each method, see:
 # http://home.iatspayments.com/developer-info/underlying-soap-api
 #
