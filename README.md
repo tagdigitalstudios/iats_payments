@@ -40,7 +40,7 @@ process_link_client.password = "TEST88"
 process_link_client.process_credit_card(message)
 ```
 
-See the customer_link_client, process_link_client, and report_link_client for available methods. To see the available required/available request parameters for each method, see: http://home.iatspayments.com/developers/underlying-soap-api
+See the customer_link_client, process_link_client, and report_link_client for available methods. To see the available required/available request parameters for each method, see: http://home.iatspayments.com/developer-info/underlying-soap-api
 
 Each parameter is passed as a "message" hash, lower-cased and underscorized (snake-case). Savon takes care of matching up the parameters and setting them to the right case. If you need to force a specific parameter, just pass it as a string-indexed hash item rather than as a symbol.
 

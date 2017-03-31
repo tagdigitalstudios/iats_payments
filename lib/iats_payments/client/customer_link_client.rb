@@ -1,5 +1,5 @@
 # To see the available required/available request parameters for each method, see:
-# http://home.iatspayments.com/developers/underlying-soap-api
+# http://home.iatspayments.com/developer-info/underlying-soap-api
 #
 # Each parameter is passed as a "message" hash, lower-cased and underscorized (snake-case).
 
