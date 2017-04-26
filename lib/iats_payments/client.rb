@@ -18,7 +18,11 @@ module IatsPayments
       locals[:message][:agent_code] = agent_code if locals[:message] && locals[:message][:agent_code].blank?
       locals[:message][:password] = password if locals[:message] && locals[:message][:password].blank?
       response = soap_client.call(operation_name, locals, &block)
-      response.body["#{operation_name}_v1_response".to_sym]["#{operation_name}_v1_result".to_sym][:iatsresponse]
+      if response.body["#{operation_name}v1_response".to_sym].present?
+        response.body["#{operation_name}v1_response".to_sym]["#{operation_name}v1_result".to_sym][:iatsresponse]
+      else
+        response.body["#{operation_name}_v1_response".to_sym]["#{operation_name}_v1_result".to_sym][:iatsresponse]
+      end
     end
 
     def methods
