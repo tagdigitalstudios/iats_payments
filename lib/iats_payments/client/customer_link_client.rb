@@ -1,15 +1,3 @@
-# CustomerLink
-#
-# CustomerLink allows you to create, update and delete tokens. These tokens can be stored on your
-# database without the risk of storing clear text credit card or banking details. You can then use
-# these tokens to either do one-time transactions, or recurring transactions where you manage the
-# recurring schedule.
-#
-# CustomerLink also allows you to set up recurring schedules where iATS will manage the recurring
-# schedule. The results of these recurring transactions can be pulled out of our server using
-# our ReportLink services. Our webservices allow you to modify these schedules (card data,
-# start and end dates, etc.) via the API.
-
 # To see the available required/available request parameters for each method, see:
 # http://home.iatspayments.com/developer-info/underlying-soap-api
 #
